@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: Arial, sans-serif;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.topo img {
+    max-width: 200px;
+}
+
+.devs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 50px 20px;
+}
+
+.titulo_devs {
+    max-width: 60%;
+}
+
+.titulo_devs h2 {
+    color: white;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.imgdevs {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgdevs img {
+    max-width: 600px;
+    width: auto;
+    height: auto;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 30px;
+    max-width: 600px;
+    position: relative;
+    top: -100px;
+}
+
+.botao button {
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.bot1 {
+    background: #11C265;
+    color: white;
+    border: none;
+}
+
+.bot2 {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.botao button:first-child {
+    margin-top: 0;
+}
+
+.text0 {
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #1f2235;
+    width: 100%;
+    height: 100vh;
+}
+
+.image-container {
+    background-color: #2c2f42;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.text-container {
+    max-width: 400px;
+}
+
+.text-container h2 {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 1rem;
+    color: #c4c4c4;
+    text-align: center;
+}
+
+.secao3 {
+    display: flex;
+    height: 800px;
+}
+
+.galeria {
+    position: relative;
+    width: 900px;
+    height: 200px;
+    margin-top: 250px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.imagem-galeria1, .imagem-galeria2 {
+    position: absolute;
+    max-width: 100%;
+    border-radius: 1px;
+}
+
+.imagem-galeria1 {
+    z-index: 0; 
+    border: 1px solid white;
+}
+
+.imagem-galeria2 {
+    z-index: 1;
+    top: 120px; 
+    left: 90px;
+    border: 1px solid white;
+    width: 416px;
+    height: 218px;
+}
+
+.caixa-texto {
+    height: 156px;
+    width: 800px;
+    margin-top: 290px;
+    margin-right: 30px;
+    margin-left: 200px;
+}
+
+.descricao-combo {
+    color: #cecfd1;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.texto-botao {
+    color: white;
+    font-size: 18px;
+}
+
+.caixa-texto button {
+    border-radius: 10px;
+    width: 512px;
+    height: 56px;
+    position: static;
+    background: #009748;
+    margin-left: 30px;
+}
+
+.secao4 {
+    background: #222634;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    padding: 0 170px;
+}
+
+.imagem-notebook {
+    height: 200px;
+    margin-right: 30px;
+}
+
+.texto-informacao {
+    width: 580px;
+    text-align: left;
+}
+
+.titulo-sec4 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 27px;
+    font-weight: bold;
+}
+
+.descricao-sec4 {
+    color: #cecfd1;
+}
+
+.secao5 {
+    height: 600px;
+}
+
+.icones-dispositivos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.titulo-dispositivos {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.descricao-dispositivos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-dispositivos {
+    margin-top: 250px;
+}
+
+.tv {
+    width: 350px;
+}
+
+.pc {
+    width: 350px;
+}
+
+.celular{
+    width: 350px;
+}
+
+.secao6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: #222634;
+    text-align: center;
+}
+
+.titulo-contato {    
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    background-color: #282c36;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #2f3545;
+    color: white;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #8a8d9d;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1ebc70;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secao7 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao7 .logo {
+    margin-bottom: 10px;
+}
+
+.secao7 .logo img {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.send-btn {
+    background-color: #37b337;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.send-btn:hover {
+    background-color: #2a8b2a;
+}
